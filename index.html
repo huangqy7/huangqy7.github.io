@@ -1,5 +1,4 @@
 <html>
-
 <head>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111995914-1"></script>
@@ -31,19 +30,55 @@
 	  
   </header> 
   <section id="intro">
-     <p> I am currently a research assistant professor at SUSTech. I received my Ph.D. degree in Department of Computer Science and Engineering from HKUST, where my Ph.D. advisor is <a href="https://home.cse.ust.hk/~qianzh/">Prof. Qian Zhang</a>. After that, I worked at HKUST as a post-doc for one year. Before joining HKUST, I got my bachelor degree from Shanghai Jiao Tong University.</p>
+     <p> I am currently a research associate professor at SUSTech. I received my Ph.D. degree in Department of Computer Science and Engineering from HKUST, where my Ph.D. advisor is <a href="https://home.cse.ust.hk/~qianzh/">Prof. Qian Zhang</a>. After that, I worked at HKUST as a post-doc for one year. Before joining HKUST, I got my bachelor degree from Shanghai Jiao Tong University.</p>
+	 
    </section>
-   
-   <table width="80%">
+
+	
+	<table width="80%">
    <tr>
 		<td width="25%" align = "center"><a href="#publications"><font size="4">Publications</font></a></td>
         <td width="25%" align = "center"><a href="#students"><font size="4">Students</font></a></td>
         <td width="25%" align = "center"><a href="#Research Grants"><font size="4">Research Grants</font></a></td>
 		<td width="25%" align = "center"><a href="https://scholar.google.com.hk/citations?user=AZAiLpkAAAAJ&hl=zh-CN"><font size="4">Google Scholar</font></a></td>
-   </tr>
-</table>
+	</tr>
+	</table
+	</br>
 </article>
 </html>
+
+<article>	
+	
+	<B>Research Interests</B>
+	<table width="1000" border="0">
+
+	 <tbody>
+
+		<tr>
+		<td><div align="center"><img src="isac.png" width="250"></div></td>
+		<td></td>
+		<td><B>Integrated Sensing and Communication:</B> Radio signals, traditionally used for data communication, are now emerging as sensing media. Researchers have demonstrated the great potential of RF sensing, including understanding gesture commands and monitoring vital signs. However, sensing and communication are contradictory purposes. For the sensing purpose, we use a known sequence to probe unknown channel conditions, while for the communication purpose, we decode unknown messages assuming that the channel conditions are known. We address the challenges encountered when integrating sensing and communication functions and thus they can work in harmony. Accordingly, we build up prototypes to test the performance of our design. <br/>
+		</td>
+		</tr>
+		
+		<tr>
+		<td><div align="center"><img src="sensing.png" width="250"></div></td>
+		<td></td>
+		<td><B>Intelligent Sensing:</B> We investigate how to fully exploit RF signals (Wi-Fi, mmWave, Ultra-wideband), acoustic signals, and visible/invisible light signals to achieve intelligent sensing. We are interested in gesture recognition, motion tracking, food intake logging, and vital sign monitoring, so that we can enable convenient human-computer interactions, location-based services, and long-term health management. We are working toward the vision of smart homes and smart healthcare. We have built several sensing prototypes for various purposes. Related papers include <a href="#MobiCom'21a">[MobiCom'21a]</a>,<a href="#MobiCom'21b">[MobiCom'21b]</a>, <a href="#Percom'21">[Percom'21]</a>,<a href="#INFOCOM'19">[INFOCOM'19]</a>,<a href="#INFOCOM'18">[INFOCOM'18]</a>,<a href="#INFOCOM'16">[INFOCOM'16]</a>.<br/>
+		</td>
+		</tr>
+		
+		<tr>
+		<td><div align="center"><img src="security.png" width="250"></div></td>
+		<td></td>
+		<td><B>Security in the era of IoT:</B> Various intelligent devices are connected by wireless links. As wireless signals are broadcast signals, they can be easily eavesdropped by malicious guys. Besides, the miniaturized design paradigm also leave loopholes in the devices. We focus on studying the security issues in IoT devices/IoT networks, and propose corresponding coutermeasures. In addition to the inherent design deficiency, we also investigate the vulnerability in signal processing flows. Related papers include <a href="#TOSN'22">[TOSN'22]</a>, <a href="#AAAI'20">[AAAI'20]</a>, <a href="#IMWUT'18">[IMWUT'18]</a>, <a href="#MobiCom'17">[MobiCom'17]</a>.<br/>
+		</td>
+		</tr>
+	  
+	  </tbody></table>
+	
+</article>
+
 
 <article>
   <section id="publications">
@@ -51,40 +86,44 @@
     <section id="conference_papers">
 	<h2>Conference papers</h2>
       <ol>
-		<li><a href="/Paper/mobicom21-SMART.pdf">SMART: Screen-based Gesture Recognition on Commodity Mobile Devices</a><br/>
+		<li>FABMon: Enabling Fast and Accurate Network Available Bandwidth Estimation<br/>
+		Tao Jin, Weichao Li, Qing Li, <B>Qianyi Huang</B>, Yong Jiang, Shutao Xia<br/>
+		To appear in IWQoS 2022.
+		</li>
+		<li id="MobiCom'21a"><a href="/Paper/mobicom21-SMART.pdf">SMART: Screen-based Gesture Recognition on Commodity Mobile Devices</a><br/>
 		Zimo Liao, Zhicheng Luo, <B>Qianyi Huang</B>, Linfeng Zhang, Fan Wu, Qian Zhang, Yi Wang<br/>
-		To appear in MobiCom 2021
+		MobiCom 2021
 		</li>
-		<li><a href="/Paper/mobicom21-Lili.pdf">Lili: Liquor Quality Monitoring with Light Signal</a><br/>
+		<li id="MobiCom'21b"><a href="/Paper/mobicom21-Lili.pdf">Lili: Liquor Quality Monitoring with Light Signal</a><br/>
 		Yongzhi Huang, Kaixin Chen, Lu Wang, Yinying Dong, <B>Qianyi Huang</B>, Kaishun Wu<br/>
-		To appear in MobiCom 2021
+		MobiCom 2021
 		</li>
-		<li>
+		<li id="Percom'21">
 		<a href="/Paper/MousePath.pdf">MousePath: Enhancing Web Interaction on PCs through Smartphone and Optical Mouse [<a href="/Paper/MousePath_Demo.mp4">Demo Video</a>][<a href="/Paper/MousePath_PerCom_Demo.pdf">Demo Abstract</a>][<a href="/Paper/mousepath_slide.pptx">Slides</a>]</a> <br/>
 		Zhiwei Wang, <B>Qianyi Huang</B>, Yihui Yan, Zhice Yang, Haitian Ren, Yizhou Zhang<br/>
 		Percom 2021.
 		</li>
-		<li>
+		<li id="AAAI'20">
           <a href="/Paper/ECGadv.pdf">ECGadv: Generating Adversarial Electrocardiogram to Misguide Arrhythmia Classification System</a> <br/>
           Huangxun Chen, Chenyu Huang, <B>Qianyi Huang</B>, Qian Zhang, Wei Wang<br/>
           AAAI 2020.
         </li>
-		<li>
+		<li id="INFOCOM'19">
           <a href="/Paper/ALS-P.pdf">ALS-P: Light Weight Visible Light Positioning via Ambient Light Sensor</a> [<a href="/Paper/ALS-P.pptx">Slides</a>]<br/>
           Zeyu Wang, Zhice Yang, <B>Qianyi Huang</B>, Lin Yang, Qian Zhang<br/>
           IEEE INFOCOM 2019.
         </li>
-		<li>
+		<li id="INFOCOM'18">
           <a href="/Paper/SmartU.pdf">Smart-U: Smart Utensils Know What You Eat</a> [<a href="/Paper/Smart-U.pptx">Slides</a>]<br/>
           <B>Qianyi Huang</B>, Zhice Yang, Qian Zhang<br/>
           IEEE INFOCOM 2018.
         </li> 
-		<li>
+		<li id="MobiCom'17">
           <a href="/Paper/NICScatter-CameraReady.pdf">NICScatter: Backscatter as a Covert Channel in Mobile Devices</a> [<a href="/Paper/NICScatter.pdf">Slides</a>]<br/>
           Zhice Yang, <B>Qianyi Huang</B>, Qian Zhang<br/>
           ACM MobiCom 2017.
         </li>  
-		<li>
+		<li id="INFOCOM'16">
           <a href="/Paper/HMW+16INFOCOM.pdf">Battery-free Sensing Platform for Wearable Devices: The Synergy Between Two Feet</a> [<a href="/Paper/infocom16_presentation.pptx">Slides</a>]<br/>
           <B>Qianyi Huang</B>, Yan Mei, Wei Wang, Qian Zhang<br/>
           IEEE INFOCOM 2016.
@@ -98,6 +137,11 @@
       </ol>
 	<h2>Journal papers</h2>
 	<ol>
+		<li>FedNILM: Applying Federated Learning to NILM Applications at the Edge<br/>
+			Yu Zhang, Guoming Tang, <B>Qianyi Huang</B>, Yi Wang, Kui Wu, Keping Yu, Xun Shao<br/>
+			To appear in IEEE Transactions on Green Communications and Networking.
+		</li>		
+
 		<li> Rethinking Fine-grained Measurement from Software-defined Perspective: A Survey<br/>
 			Hao Zheng, Yanan Jiang, Chen Tian, Long Cheng, Qun Huang, Weichao Li, Yi Wang, <B>Qianyi Huang</B>, Jiaqi Zheng, Rui Xia, Yi Wang, Wanchun Dou, Guihai Chen<br/>
 			To appear in IEEE Transactions on Services Computing.
@@ -107,18 +151,21 @@
 			Zhiqing Luo, Wei Wang, <B>Qianyi Huang</B>, Tao Jiang, Qian Zhang <br/>
           To appear in IEEE Transactions on Mobile Computing.
         </li>
-		<li>
-			SecurePilot: Improving Wireless Security of Single-Antenna IoT Devices  <br/>
-			Huangxun Chen, <B>Qianyi Huang</B>, Chenyu Huang, Chenchen Liu, Xiao Han, Qian Zhang <br/>
-			To appear in IEEE Internet of Things Journal.
-        </li>
+		
 		
 		<li>
 			LoRadar: Enabling Concurrent Radar Sensing and LoRa Communication <br/>
 			<B>Qianyi Huang</B>, Zhiqing Luo, Jin Zhang, Wei Wang, Qian Zhang <br/>
 			To appear in IEEE Transactions on Mobile Computing.
         </li>
-		<li> <a href="/Paper/TOSN_Shared_Secret_Key_Generation.pdf">Shared Secret Key Generation By Exploiting Inaudible Acoustic Channels</a> <br/>
+		
+		<li>
+			<a href="/Paper/SecurePilot.pdf">SecurePilot: Improving Wireless Security of Single-Antenna IoT Devices </a> <br/>
+			Huangxun Chen, <B>Qianyi Huang</B>, Chenyu Huang, Chenchen Liu, Xiao Han, Qian Zhang <br/>
+			IEEE Internet of Things Journal, 9 (2), 2022.
+        </li>
+		
+		<li id="TOSN'22"> <a href="/Paper/TOSN_Shared_Secret_Key_Generation.pdf">Shared Secret Key Generation By Exploiting Inaudible Acoustic Channels</a> <br/>
 			Youjing Lu, Fan Wu, <B>Qianyi Huang</B>, Shaojie Tang, Linghe Kong, Guihai Chen <br/>
 			ACM Transactions on Sensor Networks, 18 (1), 2022.
 		</li>
@@ -147,7 +194,7 @@
           <B>Qianyi Huang</B>, Guochao Song, Wei Wang, Huixin Dong, Jin Zhang, Qian Zhang<br/>
           IEEE Internet of Things Journal，7(8), 2020.
         </li> 
-		<li>
+		<li id="IMWUT'18">
           <a href="/Paper/ubicomp18.pdf">Authenticating On-Body Backscatter By Exploiting Propagation Signatures</a> 
 		  [<a href="/Paper/ubicomp18_slides.pptx">Slides</a>]<br/>
           Zhiqing Luo, Wei Wang, Jiang Xiao, <B>Qianyi Huang</B>, Tao Jiang, Qian Zhang<br/>
